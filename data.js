@@ -4,7 +4,7 @@ const users = (function(){
    const department = ['cliq','salesiq','crm'];
    let random = department[Math.floor(Math.random() * Math.floor(3))];
 
-   for(let i=1;i<=37500;i++){
+   for(let i=1;i<=50000;i++){
      let obj = {
        zuid : i,
        email_id: `sample${i}@samplemail.com`,
